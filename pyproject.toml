@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "boltz-belka-demo-neurips"
+version = "0.1.0"
+description = "Demo of using Boltz-1 to predict binding status of molecules from Leash's BELKA dataset."
+authors = ["Maxwell Kleinsasser <maxwell.kleinsasser@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+kaggle = "^1.6.17"
+ipykernel = "^6.29.5"
+pyarrow = "^18.1.0"
+boltz = "^0.3.2"
+skypilot = {extras = ["aws", "gcp"], version = "^0.7"}
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+polaris = "^0.1"
+numpy = "1.26.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
