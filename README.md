@@ -23,7 +23,7 @@ poetry shell
 This tutorial uses [skypilot](https://docs.skypilot.co/en/latest/docs/index.html) to run inference with Boltz-1 in the cloud. SkyPilot relies on being authenticated with a supported cloud provider. [inference_runner.py](./inference_runner.py) requests resources which may only accessible with AWS. If you aren't using AWS, see which GPUs are accessible to you with `sky show-gpus`.
 
 ## BELKA
-[BELKA](https://www.kaggle.com/c/leash-BELKA) is a Kaggle competition and public dataset containing over 100M
+[BELKA](https://www.kaggle.com/c/leash-BELKA) is a Kaggle competition and public dataset containing over 100M observations of protein-ligand interactions.
 
 ### Downloading the full dataset
 This repo comes with a small sample of the BELKA dataset to make it easier to access for the in-person presentation of this tutorial. The full dataset can be downloaded from [kaggle](https://www.kaggle.com/c/leash-BELKA) or [polaris](https://polarishub.io/datasets/leash-bio/belka-v1). The Polaris dataset contains the dataset in a more raw form.
